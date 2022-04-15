@@ -37,7 +37,7 @@ const Home: NextPage = () => {
   console.log(firstPokemon.data)
 
   return (
-    <div className="h-screen w-screen flex flex-col items-center justify-center">
+    <div className="h-screen w-screen flex flex-col items-center justify-center relative">
       <div className="text-2xl text-center">Witch poke is Roundest??</div>
       <div className="p-2"/>
       <div className="border rounded p-8 flex justify-between items-center max-w-2xl">
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
         )}
         <div className="p-2"></div>
       </div>
-     </div>
+    </div>
   )
 }
 
